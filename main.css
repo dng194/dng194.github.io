@@ -78,7 +78,7 @@ header ul li a:hover { /*to change the text color when the mouse move at it */
 	margin-bottom: 20px;
 	color: #3B9C9C;
     position: absolute;
-    top: 34%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
 

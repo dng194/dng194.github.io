@@ -1,0 +1,200 @@
+-<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<style>
+body,h1 {font-family: "Raleway", Arial, sans-serif}
+h1 {letter-spacing: 6px}
+.w3-row-padding img {margin-bottom: 12px}
+
+</style>
+
+<body>
+<body background="1.jpg" style="width:100%;">
+<header>
+    <ul>
+        <li id="list1"><a href="index.html">Home </li>
+    <li><a href="index1.html">Portfolio </a></li>
+    <li><a href="index2.html">Statement</a></li>
+    <li><a href="index3.html">Contact</a> </li>
+    </ul>
+</header>
+
+   
+    <div class="Portfolio">
+        <h1>PORTFOLIO</h1>
+    </div>
+
+    <!--First row-->
+    <div id="Line1">
+    
+    <img id="myImg" src="glitch.jpg" alt="Glitch Art" class="images"/>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01">
+
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+    </div>
+
+    <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+
+    <img id="myImg1" src="book1.jpg" alt="Booklet" class="images"/>
+
+<!-- The Modal -->
+    <div id="myModal1" class="modal1">
+
+    <!-- The Close Button -->
+    <span class="close1">&times;</span>
+
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content1" id="img02">
+
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption1"></div>
+    </div>
+
+    <script>
+// Get the modal
+var modal = document.getElementById('myModal1');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg1');
+var modalImg = document.getElementById("img02");
+var captionText = document.getElementById("caption1");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close1")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+
+    <img id="myImg2" src="design.jpg" alt="Design99" class="images"/>
+
+<!-- The Modal -->
+    <div id="myModal2" class="modal2">
+
+    <!-- The Close Button -->
+    <span class="close2">&times;</span>
+
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content2" id="img03">
+
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption2"></div>
+    </div>
+
+    <script>
+// Get the modal
+var modal = document.getElementById('myModal2');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg2');
+var modalImg = document.getElementById("img03");
+var captionText = document.getElementById("caption2");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close2")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+
+    <img id="myImg3" src="book2.jpg" alt="Booklet1" class="images"/></div>
+
+    <!-- The Modal -->
+    <div id="myModal3" class="modal3">
+
+    <!-- The Close Button -->
+    <span class="close3">&times;</span>
+
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content3" id="img04">
+
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption3"></div>
+    </div>
+
+    <script>
+// Get the modal
+var modal = document.getElementById('myModal3');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg3');
+var modalImg = document.getElementById("img04");
+var captionText = document.getElementById("caption3");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close3")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+</script>
+
+    <!--Second row-->
+ 
+    
+<footer>
+     <div class="social">
+        <a href="https://www.facebook.com/mbbbee" id="firstsocial"><img src="https://static1.squarespace.com/static/57772a32ebbd1af1e31dfb0a/t/578e9e27bebafbdbc7903f51/1468964391768/circle-fb.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/minneooo"><img src="http://shopping.na2.netsuite.com/c.4382721/Website%20Images/Homepage%20Icons/IG-Icon-Footer.png" alt="instagram"></a>
+  
+      </div>
+        <p> &copy; DUC NGUYEN | SPRING 2018</p>
+</footer>
+
+</body>
+</html>
